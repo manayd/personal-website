@@ -1,0 +1,135 @@
+
+.App {
+  background-color: #F6F2F7;
+  font-family: "Kanit", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: large;
+}
+
+.navbar {
+  background-color: transparent;
+  font-size: 18px;
+  padding-top: 30px;
+  margin-right: 10%;
+}
+
+.navbar-brand {
+  color: #2B4162 !important;
+  font-size: 24px;
+  text-decoration: none !important;
+  margin-left: 10%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #2B4162 !important;
+  padding: 20px !important;
+  text-decoration: none !important;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #A26769 !important;
+}
+
+.navbar-light .navbar-nav .nav-item:last-child .nav-link {
+  margin-right: 0; 
+}
+
+.navbar-light .navbar-nav .nav-item {
+  margin-right: 20px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.experiences {
+  margin-bottom: 30px;
+}
+
+.about-section {
+  margin-top: 5%;
+  text-align: center;
+}
+
+.image{
+  max-width: 100%;
+  height: auto;
+  align-self: center;
+}
+
+.profile-picture {
+  margin-top: 50px;
+}
+
+.ml-auto {
+  float: right;
+}
+
+.container {
+  align-items: center; 
+  grid-template-columns: 1fr 1fr;
+  column-gap: 5px;
+ }
+ 
+ .text {
+   font-size: 50px;
+   text-align: center;
+ } 
+
+.timeline-section {
+  padding-top: 10px;
+}
+
+.timeline {
+  position: relative;
+}
+
+.experience {
+  background-color: #F6F2F7;
+  padding: 20px;
+  margin-bottom: 60%;
+  position: relative;
+  border-left: 4px solid #385F71; /* Add left border */
+}
+
+.experience-last {
+  background-color: #F6F2F7;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 10%;
+  border-left: 4px solid #385F71; /* Add left border */
+}
+
+.right-side {
+  margin-top: 30%;
+}
+
+.experiences-text {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.projects-section {
+  padding-top: 50px;
+}
+
+.project {
+  background-color: #F6F2F7;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.project img {
+  max-width: 100%;
+  height: auto;
+}
+
+.project h3 {
+  margin-bottom: 10px;
+}
+
+.project p {
+  margin-bottom: 0;
+}
