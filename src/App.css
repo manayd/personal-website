@@ -1,6 +1,6 @@
 
 .App {
-  background-color: #F6F2F7;
+  /* background-color: #F6F2F7; */
   font-family: "Kanit", sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -9,20 +9,20 @@
 
 .navbar {
   background-color: transparent;
-  font-size: 18px;
+  font-size: 22px;
   padding-top: 30px;
   margin-right: 10%;
 }
 
 .navbar-brand {
-  color: #2B4162 !important;
-  font-size: 24px;
+  color: #3A7E47 !important;
+  font-size: 28px;
   text-decoration: none !important;
   margin-left: 10%;
 }
 
 .navbar-light .navbar-nav .nav-link {
-  color: #2B4162 !important;
+  color: #3A7E47 !important;
   padding: 20px !important;
   text-decoration: none !important;
 }
@@ -86,7 +86,6 @@
 }
 
 .experience {
-  background-color: #F6F2F7;
   padding: 20px;
   margin-bottom: 60%;
   position: relative;
@@ -94,7 +93,6 @@
 }
 
 .experience-last {
-  background-color: #F6F2F7;
   padding: 20px;
   position: relative;
   margin-bottom: 10%;
@@ -108,14 +106,21 @@
 .experiences-text {
   text-align: center;
   margin-top: 50px;
+  color: #052F5F;
+}
+
+.projects-text {
+  text-align: center;
+  margin-top: 50px;
+  color: #FA6168
 }
 
 .projects-section {
-  padding-top: 50px;
+  padding-top: 20px;
+  padding-bottom: 5%
 }
 
 .project {
-  background-color: #F6F2F7;
   padding: 20px;
   margin-bottom: 30px;
   text-align: center;
@@ -132,4 +137,70 @@
 
 .project p {
   margin-bottom: 0;
+}
+
+.prl-title {
+  max-width: 100%;
+  border-width: 5px;
+  border-color: black;
+}
+
+.payback-vid {
+  max-width: 100%;
+}
+
+.lilypad-vid {
+  max-height: 500px;
+  max-width: 100%;
+  align-self: center;
+}
+
+.lilypad-vid-container {
+  align-items: center;
+}
+
+.project-row {
+  margin-top: 5%;
+  align-items: center;
+}
+
+.divider {
+  width: 30%;
+  border: dotted
+}
+
+a {
+  text-decoration: none; /* Removes underline */
+  color: #D17B88;
+  /* color: #5899E2; */
+}
+
+a:hover {
+  text-decoration: none; /* Ensures no underline on hover */
+  color: #B2060E;
+}
+
+h3 {
+  color: #445E93;
+}
+
+h4 {
+  color: #5899E2;
+}
+
+.social-icons-container {
+  display: flex;
+  justify-content: center;
+  gap: 5%; /* Adjust as needed */
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background-color: #D4D9D7;
+}
+
+.social-icons-container a {
+  color: #000; /* Adjust color as needed */
+}
+
+.social-icons-container a:hover {
+  color: #007bff; /* Adjust hover color as needed */
 }
