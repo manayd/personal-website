@@ -3,6 +3,7 @@ import { Container, Row, Col, Navbar, Nav } from 'react-bootstrap';
 import paybackVideo from './payback-demo.mp4';
 import lilypadVideo from './lilypad-demo.mp4'
 import { Fade } from 'react-reveal';
+import resumePDF from "./Manay_Divatia_Resume_copy.pdf";
 
 import './App.css'; // Import CSS file for custom styles
 
@@ -15,7 +16,7 @@ function App() {
           <Nav className="ml-auto">
             <Nav.Link href="https://www.linkedin.com/in/manaydivatia" target="_blank" className="nav-link" style={{ color: '#0072b1' }}>LinkedIn</Nav.Link>
             <Nav.Link href="https://github.com/manayd" target="_blank" className="nav-link">GitHub</Nav.Link>
-            <Nav.Link href="public/Manay_Divatia_Resume_copy.pdf" target='_blank' className="nav-link">Resume</Nav.Link>
+            <Nav.Link href={resumePDF} target='_blank' className="nav-link">Resume</Nav.Link>
           </Nav>
         </Container>
       </Navbar>
