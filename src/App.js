@@ -65,29 +65,12 @@ function App() {
             <div className="timeline">
               <Fade bottom>
               <div className="experience">
-                <h3>Deck To Memo</h3>
-                <h4>Software Engineering Intern (May 2023 - August 2023)</h4>
-                <p>Built a full-stack application that converts a company’s pitch deck into a standard deal memo in 6 paragraphs.
-                    Developed a website using Python with a Django web framework using Docker containerization.
-                   Coordinated with 2 entrepreneurs to organize and carry out the entire project using an Agile framework.
-                   Skills used: Python, Javascript, Django Framework, HTTP API, HTML.
-                   </p>
+                <h3>MultiPlan</h3>
+                <h4>Information Technology Intern - Cloud (May 2024 - August 2024)</h4>
+                <p>Optimized Azure infrastructure, helping to create 11 modules using Terraform for automated provisioning
+                   Improved 20+ Azure and AWS cloud infrastructure resources to better manage and run applications
+                </p>
               </div>
-              <div className="experience">
-              <h3>Pathful Connect</h3>
-                <h4>Software Development Intern (May 2021 - June 2021)</h4>
-                <p>Programmed the help section for all event pages on the Nepris website using .yaml files for 100,000+ educators.
-                   Created a text messaging notification system using the Twilio REST API call in C#.
-                   Collaborated with 10 developers and 2 product managers to pick up User Stories for a Sprint.
-                   Skills used: C#, SQL, Front-End Development.
-                   </p>
-              </div>
-              </Fade>
-            </div>
-          </Col>
-          <Col md={6} className='right-side'>
-            <div className="timeline">
-              <Fade bottom>
               <div className="experience">
               <h3>Melo</h3>
                 <h4>Software Engineering Intern (June 2022 - December 2022)</h4>
@@ -98,12 +81,36 @@ function App() {
                    </p>
               </div>
               <div className="experience-last">
-                <h3>MIT Beaver Works Summer Institute</h3>
+              <h3>MIT Beaver Works Summer Institute</h3>
                 <h4>Operations Team Leader - Remote Sensing for Disaster Response (July 2021-August 2021)</h4>
                 <p>Analyzed raster and satellite imagery through spatial data analysis using Python, pandas, and sklearn.
                    Utilized and responded to simulated hurricane data to minimize displacement of simulated citizens.
                    Developed a machine learning algorithm to identify destroyed objects in satellite imagery with 76% accuracy.
                    Skills used: Python, Pandas, MatPlotLib, Machine Learning, Neural Networks, Remote Sensing, Deep Learning.
+                   </p>
+              </div>
+              </Fade>
+            </div>
+          </Col>
+          <Col md={6} className='right-side'>
+            <div className="timeline">
+              <Fade bottom>
+              <div className="experience">
+              <h3>Deck to Memo</h3>
+                <h4>Software Engineering Intern (May 2023 - August 2023)</h4>
+                <p>Built a full-stack application that converts a company’s pitch deck into a standard deal memo in 6 paragraphs.
+                    Developed a website using Python with a Django web framework using Docker containerization.
+                   Coordinated with 2 entrepreneurs to organize and carry out the entire project using an Agile framework.
+                   Skills used: Python, Javascript, Django Framework, HTTP API, HTML.
+                   </p>
+              </div>
+              <div className="experience-last">
+                <h3>Pathful Connect</h3>
+                <h4>Software Development Intern (May 2021 - June 2021)</h4>
+                <p>Programmed the help section for all event pages on the Nepris website using .yaml files for 100,000+ educators.
+                   Created a text messaging notification system using the Twilio REST API call in C#.
+                   Collaborated with 10 developers and 2 product managers to pick up User Stories for a Sprint.
+                   Skills used: C#, SQL, Front-End Development.
                 </p>
               </div>
               </Fade>
