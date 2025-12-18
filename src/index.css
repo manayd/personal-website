@@ -1,3 +1,35 @@
+ :root {
+  --bg-page: #ffffff;
+  --text-body: #1a1a1a;
+  --text-heading: #0f3d3e;
+  --nav-bg: #0f3d3e;
+  --nav-link: #f4f7fb;
+  --nav-link-hover: #b8e0f2;
+  --about-bg: linear-gradient(135deg, #e8f4f2 0%, #f3fbf9 100%);
+  --experience-bg: linear-gradient(135deg, #eef2ff 0%, #e1e9ff 100%);
+  --projects-bg: linear-gradient(135deg, #fff2e6 0%, #ffe3c4 100%);
+  --card-bg: #ffffff;
+  --border-subtle: rgba(0, 0, 0, 0.08);
+  --accent-line: #0ea5e9;
+  --accent-dot: #f97316;
+}
+
+body.dark {
+  --bg-page: #0f172a;
+  --text-body: #e2e8f0;
+  --text-heading: #e2e8f0;
+  --nav-bg: #0b1220;
+  --nav-link: #e2e8f0;
+  --nav-link-hover: #93c5fd;
+  --about-bg: linear-gradient(135deg, #111827 0%, #0b1220 100%);
+  --experience-bg: linear-gradient(135deg, #0b1220 0%, #0a101d 100%);
+  --projects-bg: linear-gradient(135deg, #111827 0%, #0f172a 100%);
+  --card-bg: #0f172a;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+  --accent-line: #60a5fa;
+  --accent-dot: #f59e0b;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -5,6 +37,12 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: var(--bg-page, #ffffff);
+  color: var(--text-body, #1a1a1a);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 code {
