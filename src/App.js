@@ -243,6 +243,25 @@ function App() {
               <div className="project-row-header">
                 <h3>
                   <a href="https://github.com/manayd" target="_blank" rel="noopener noreferrer">
+                    AI-Powered Financial Data Pipeline
+                  </a>
+                </h3>
+                <span className="project-date">March 2026</span>
+              </div>
+              <p>Built a real-time financial pipeline via Apache Kafka with dead-letter queues and content-hash deduplication. Processed streams through Faust for enrichment and windowed aggregations, served via a FastAPI REST API. Integrated LLM analysis (Claude via AWS Bedrock) to generate summaries on live financial data. Designed dual-storage architecture with PostgreSQL and S3/Parquet data lake.</p>
+              <div className="project-tags">
+                <span className="tag">Apache Kafka</span>
+                <span className="tag">FastAPI</span>
+                <span className="tag">AWS Bedrock</span>
+                <span className="tag">PostgreSQL</span>
+                <span className="tag">Python</span>
+              </div>
+            </motion.div>
+
+            <motion.div className="project-row" variants={fadeUp}>
+              <div className="project-row-header">
+                <h3>
+                  <a href="https://github.com/manayd" target="_blank" rel="noopener noreferrer">
                     AI Research Analyst (Multi-Agent RAG System)
                   </a>
                 </h3>
