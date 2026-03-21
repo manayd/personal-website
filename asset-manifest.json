@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.6106ce36.css",
-    "main.js": "/static/js/main.0fbf08c4.js",
+    "main.js": "/static/js/main.7e02a128.js",
     "static/js/206.8cc6c515.chunk.js": "/static/js/206.8cc6c515.chunk.js",
     "static/media/amazon_pic.png": "/static/media/amazon_pic.933180c4f86b221c9409.png",
-    "static/media/Manay_Divatia_Resume_copy.pdf": "/static/media/Manay_Divatia_Resume_copy.446bd1a8601ab816f34b.pdf",
+    "static/media/Manay_Divatia_Resume_copy.pdf": "/static/media/Manay_Divatia_Resume_copy.e365cfb20939d671dfac.pdf",
     "static/media/melo_pic.jpg": "/static/media/melo_pic.bbf2b009ea8f93734f32.jpg",
     "static/media/claritev_pic.jpg": "/static/media/claritev_pic.e5f07387368a0856159f.jpg",
     "index.html": "/index.html"
   },
   "entrypoints": [
     "static/css/main.6106ce36.css",
-    "static/js/main.0fbf08c4.js"
+    "static/js/main.7e02a128.js"
   ]
 }
